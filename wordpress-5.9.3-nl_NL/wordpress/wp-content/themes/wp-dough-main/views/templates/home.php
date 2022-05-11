@@ -1,15 +1,10 @@
- <?php
+<?php
 /** @var string $title */
 /** @var string $content */
 /** @var array $buttonGroup */
-/** @var array $coolerButtonGroup */
-
+/** @var array %coolerButtonGroup */
 if(!$buttonGroup){
     $buttonGroup = null;
-}
-
-if(!$coolerButtonGroup){
-    $coolerButtonGroup = null;
 }
 ?>
 
@@ -29,7 +24,7 @@ if(!$coolerButtonGroup){
         <?php render('views/molecules/button-collection.php', compact('buttonGroup')); ?>
     <?php endif; ?>
 
-    <?php if($coolerbuttonGroup): ?>
+    <?php if($coolerButtonGroup): ?>
         <?php render('views/molecules/button-collection.php', compact('coolerButtonGroup')); ?>
     <?php endif; ?>
 </div>
