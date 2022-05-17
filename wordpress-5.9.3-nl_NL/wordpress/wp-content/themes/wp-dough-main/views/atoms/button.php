@@ -1,6 +1,6 @@
 <?php
 /* @var array $button */
-/* @var array $coolerButton */
+/* @var array $coolerbutton */
 ?>
 
 <a
@@ -9,8 +9,3 @@
     <?php echo $button['title']; ?>
 </a>
 
-<a
-    class="coolerbutton <?php echo $coolerButton['class']; ?>"
-    href="<?php echo $coolerButton['url']; ?>">
-    <?php echo $coolerButton['title']; ?>
-</a>
