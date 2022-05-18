@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: May 18, 2022 at 12:33 PM
+-- Generation Time: May 18, 2022 at 12:38 PM
 -- Server version: 5.7.31
 -- PHP Version: 7.3.21
 
@@ -50,7 +50,7 @@ CREATE TABLE IF NOT EXISTS `wp_users` (
 --
 
 INSERT INTO `wp_users` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `user_registered`, `user_activation_key`, `user_status`, `display_name`) VALUES
-(1, 'kip', '$P$BmQDCBONaFXrbE.5VEHREksXJGYXEK.', 'kip', 'Finndekip@gmail.com', 'http://wonderproject', '2022-05-10 13:11:40', '', 0, 'kip'),
+(1, 'kip', '$P$BWGhP3WR44LM5TM/pQ0GUXvrrUl/EY/', 'kip', 'Finndekip@gmail.com', 'http://wonderproject', '2022-05-10 13:11:40', '', 0, 'kip'),
 (2, 'simon', '$P$B0Zebg0c4gDYXzHKzjxaPuRDtJuLFF1', 'simon', '332959@student.mboutrecht.nl', '', '2022-05-18 12:33:00', '', 0, 'Simon Pras');
 COMMIT;
 
