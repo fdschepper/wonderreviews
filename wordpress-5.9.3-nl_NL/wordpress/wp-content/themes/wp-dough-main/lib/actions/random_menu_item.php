@@ -19,8 +19,10 @@ function page_render(){
     <h2>Maar waarom Dough?</h2>
     <p>Dough (deeg in het engels) kan je natuurlijk kneden tot wat jij zelf wil maken. Pizza? Brood? Koekjes? Noem het maar op.<br>
     En dat is dus precies hoe jullie dit gaan gebruiken. Kneed met dit thema je eigen! Hernoem het naar (bijvoorbeeld) iets wat je leuk vind
-    Voeg functies toe die je zelf wil zien en maak er vooral wat leuks van!</p>
+    Voeg functies toe die je zelf wil zien en maak er vooral wat leuks van!
+    <br>
+    WORDPRESS??? MORE LIKE bittgh</p>
     
-    <img class="temp" src="'. get_stylesheet_directory_uri() . '/assets/img/dough.png' . '" style="width: 25%">
+    <img class="temp" src="'. get_stylesheet_directory_uri() . '/assets/img/download(1).png' . '" style="width: 25%">
     ';
 }
