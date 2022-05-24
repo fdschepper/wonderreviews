@@ -1,5 +1,33 @@
 /* MAIN STYLE SHEET (comment can be removed) */
 
+.nav
+{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    background-color:rgb(128, 128, 128);
+}
+.nav li
+{
+display:block;
+padding: 10px;
+}
+.nav li:hover
+{
+background-color: rgb(89, 89, 89);
+}
+.nav li a
+{
+padding: 10px;
+text-decoration: none;
+color: white;
+}
+
+.banner img
+{
+    width: 100%;
+    
+}
 
 footer {
     position:absolute;
@@ -11,7 +39,12 @@ footer {
 
 /* Custom */
 .page-template-template-custom{
-    background-color: rgb(30, 249, 107);
-    color: white;
+    background-color: red;
 }
 /* End Custom */
+
+/* Home */
+.home-container{
+    
+}
+/* End Home */

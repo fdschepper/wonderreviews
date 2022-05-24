@@ -1,0 +1,9 @@
+<?php
+/*
+ * Template Name: Home
+ */
+
+$title = get_the_title();
+$content = get_the_content();
+
+render('views/templates/home.php', compact('title', 'content'));
