@@ -65,7 +65,7 @@ footer {
 
 }
 
-.home-container .row .review a{
+.home-container .row .review a.title{
     text-decoration: none;
     color: white;
     display: flex;
@@ -74,10 +74,20 @@ footer {
     align-content: center;
     justify-content: center;
     text-align: center;
-    font-size: 150%;
+    font-size: 100%;
 }
 
-.home-container .row .review a:hover{
+.home-container .row .review .post-top{
+    height: 50%;
+}
+
+.home-container .row .review .post-bottom{
+    height: 50%;
+}
+
+
+
+.home-container .row .review a.title:hover{
     color: rgb(219, 219, 219);
 }
 
