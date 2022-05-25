@@ -4,18 +4,14 @@
  */
 
 $args = array(
-    'numberposts'=> 9
+    'numberposts'=> 9,
+    'post_type'=> 'reviews'
 );              
 
 $title = get_the_title();
 $content = get_the_content();
 $posts = get_posts($args);
 $links = get_permalink();
-
-function DiplayPost($index)
-{
-    
-}
 
 ?>
 <head>
