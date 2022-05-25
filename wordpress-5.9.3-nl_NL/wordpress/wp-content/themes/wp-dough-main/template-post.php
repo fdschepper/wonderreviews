@@ -43,6 +43,7 @@ $content = get_the_content();
         <p> <a class="post_link" href="https://kidzcity.nl/?utm_source=www.google.com&amp;utm_medium=organic&amp;utm_content=" target="_blank" rel="noopener">pretpark</a>
         <p><?php echo $content; ?></p>
 <!--<img class="post_afbeelding" src="https://www.want.nl/wp-content/uploads/2021/03/Among-Us-feat.jpg" alt="among us afbeelding" height="400" />-->
+        
     </div>
 </body>
 
