@@ -9,7 +9,11 @@ $content = get_the_content();
 
 ?>
 <head>
-    <style> </style>
+<style> 
+    .aboutustext{ 
+            font-size: 150%
+    }
+</style>
 </head>
 <body>
     <div class="banner">
@@ -30,7 +34,7 @@ $content = get_the_content();
 
     <h1> <?php echo $title; ?> </h1>
     <div class="home-container">
-        <p> <?php echo $content; ?></p>
+        <p class="aboutustext"> <?php echo $content; ?></p>
     </div>
 </body>
 
