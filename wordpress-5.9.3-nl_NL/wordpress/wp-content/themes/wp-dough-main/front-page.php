@@ -30,7 +30,7 @@ $links = get_permalink();
             <a href="/about-us">about us</a>
         </li>
         <li>
-            <a href="">archive</a>
+            <a href="/archive">archive</a>
         </li>
     </div>
     <div class="home-container">
