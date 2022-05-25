@@ -14,6 +14,10 @@ $content = get_the_content();
     .post_afbeelding{
         display: flex;
     }
+    .post_link{
+        display: flex;
+        flex-direction: row-reverse;
+    }
 
 </style></head>
 <body>
