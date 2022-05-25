@@ -29,15 +29,16 @@ function DiplayPost($index)
 
     <div class="nav">
         <li>
-            <a href="">home</a>
+            <a href="http://wonderproject/">home</a>
         </li>
         <li>
-            <a href="">about us</a>
+            <a href="http://wonderproject/about-us/">about us</a>
         </li>
         <li>
-            <a href="">archive</a>
+            <a href="http://wonderproject/archive">archive</a>
         </li>
     </div>
+
     <div class="home-container">
         <?php ?>
     </div>
