@@ -1,5 +1,8 @@
 /* MAIN STYLE SHEET (comment can be removed) */
-
+body
+{
+    font-family: Helvetica, sans-serif;
+}
 .nav
 {
     width: 100%;
@@ -30,10 +33,13 @@ color: white;
 }
 
 footer {
-    position:absolute;
+    position:fixed;
     bottom:0;
 }
 
+.row {
+    width: 100%;
+}
 
 /* TEMPLATE STYLING */
 
@@ -44,7 +50,35 @@ footer {
 /* End Custom */
 
 /* Home */
-.home-container{
-    
+.home-container .row{
+    display: flex;
+    justify-content: space-around;
+    height: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+
+.home-container .row .review{
+    width: 20%;
+    background-color: rgb(89, 89, 89);
+    color: white;
+
+}
+
+.home-container .row .review a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 150%;
+}
+
+.home-container .row .review a:hover{
+    color: rgb(219, 219, 219);
+}
+
 /* End Home */
