@@ -35,8 +35,6 @@ $links = get_permalink();
     </div>
     
     <div class="home-container">
-
-
         <?php foreach ($posts as $post): ?>
         <div class="row"> 
             <div class="review">
@@ -48,8 +46,7 @@ $links = get_permalink();
                 </div>
             </div>
         </div>
-        
-        <?php endforeach; ?>
+        <?php endforeach ?>
     </div>
 </body>
 
