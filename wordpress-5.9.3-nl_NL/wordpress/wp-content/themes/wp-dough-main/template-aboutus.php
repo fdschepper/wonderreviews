@@ -17,7 +17,7 @@ $content = get_the_content();
 </head>
 <body>
     <div class="banner">
-        <img src="https://image.shutterstock.com/image-vector/vector-banner-design-circuit-board-260nw-1233925105.jpg" alt="">
+        <img src="http://get.imglarger.com:8889/results/zrM7LG6w_4x.jpg" alt="">
     </div>
 
     <div class="nav">
