@@ -1,10 +1,10 @@
 <?php
 /*
- * Template Name: Home
+ * Template Name: Archive
  */
 
 $args = array(
-    'numberposts'=> 9
+    'numberposts'=> 9,
     'post_type'=> 'reviews'
 );              
 
@@ -12,11 +12,6 @@ $title = get_the_title();
 $content = get_the_content();
 $posts = get_posts($args);
 $links = get_permalink();
-
-function DiplayPost($index)
-{
-    
-}
 
 ?>
 <head>
@@ -38,15 +33,20 @@ function DiplayPost($index)
             <a href="http://wonderproject/archive">archive</a>
         </li>
     </div>
-
-    <div class="home-container">
-        <?php ?>
-    </div>
-
-    <?php $str = "whentsdadsaheimposterissus";
-    if (strlen($str) > 10)
-    $str = substr($str, 0, 7) . '...'; 
-    echo $str?>
     
+    <div class="home-container">
+        <?php foreach ($posts as $post): { ?>
+        <div class="row"> 
+            <div class="review">
+                <div class="post-top">
+                    <a class="title" href="<?php echo get_permalink($posts[0]->ID); ?>"><?php echo $posts[0]->post_title; ?></a> 
+                </div>
+                <div class="post-bottom">
+                    <p><?php $str = $posts[0]->post_content; if (strlen($str) > 40)$str = substr($str, 0, 40) . '...'; echo $str;?></p>
+                </div>
+            </div>
+        </div>
+        <?php } ?>
+    </div>
 </body>
 
