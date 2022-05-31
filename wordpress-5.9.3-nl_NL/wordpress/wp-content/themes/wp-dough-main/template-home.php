@@ -23,7 +23,7 @@ function DiplayPost($index)
 </head>
 <body>
     <div class="banner">
-        <img src="https://image.shutterstock.com/image-vector/vector-banner-design-circuit-board-260nw-1233925105.jpg" alt="">
+        <img src="./assets/img/wonder.png">
     </div>
 
     <div class="nav">
