@@ -35,18 +35,21 @@ $links = get_permalink();
     </div>
     
     <div class="home-container">
-        <?php foreach ($posts as $post): { ?>
+
+
+        <?php foreach ($posts as $post): ?>
         <div class="row"> 
             <div class="review">
                 <div class="post-top">
-                    <a class="title" href="<?php echo get_permalink($posts[0]->ID); ?>"><?php echo $posts[0]->post_title; ?></a> 
+                    <a class="title" href="<?php echo get_permalink($post->ID); ?>"><?php echo $post->post_title; ?></a> 
                 </div>
                 <div class="post-bottom">
-                    <p><?php $str = $posts[0]->post_content; if (strlen($str) > 40)$str = substr($str, 0, 40) . '...'; echo $str;?></p>
+                    <p><?php $str = $post->post_content; if (strlen($str) > 40)$str = substr($str, 0, 40) . '...'; echo $str;?></p>
                 </div>
             </div>
         </div>
-        <?php } ?>
+        
+        <?php endforeach; ?>
     </div>
 </body>
 
