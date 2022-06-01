@@ -17,7 +17,7 @@ $content = get_the_content();
 </head>
 <body>
     <div class="banner">
-        <img src="http://get.imglarger.com:8889/results/zrM7LG6w_4x.jpg" alt="">
+        <img src="https://i.imgur.com/IEuWhRq.png" alt="">
     </div>
 
     <div class="nav">
