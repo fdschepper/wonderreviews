@@ -42,7 +42,7 @@ $links = get_permalink();
                     <a class="title" href="<?php echo get_permalink($post->ID); ?>"><?php echo $post->post_title; ?></a> 
                 </div>
                 <div class="post-bottom">
-                    <p><?php $str = $post->post_content; if (strlen($str) > 40)$str = substr($str, 0, 40) . '...'; echo $str;?></p>
+                    <p><?php $str = $post->post_content;echo $str;?></p>
                 </div>
             </div>
         </div>
