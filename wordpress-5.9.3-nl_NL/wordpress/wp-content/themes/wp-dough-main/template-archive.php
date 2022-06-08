@@ -4,7 +4,7 @@
  */
 
 $args = array(
-    'numberposts'=> 9,
+    'numberposts'=> 9999999999999,
     'post_type'=> 'reviews'
 );              
 
@@ -40,7 +40,7 @@ $links = get_permalink();
             <div class="review">
                 <div class="post-top">
                     <a class="title" href="<?php echo get_permalink($post->ID); ?>"><?php echo $post->post_title; ?></a> 
-                </div>
+                </div>  
                 <div class="post-bottom">
                     <p><?php $str = $post->post_content;echo $str;?></p>
                 </div>

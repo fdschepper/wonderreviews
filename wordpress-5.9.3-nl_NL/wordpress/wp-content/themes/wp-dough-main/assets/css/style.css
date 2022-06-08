@@ -75,6 +75,11 @@ footer {
     align-items: center
   }
 
+  .park-details{
+      display: flex;
+      justify-content: space-evenly;
+  }
+
 /* TEMPLATE STYLING */
 
 /* Custom */

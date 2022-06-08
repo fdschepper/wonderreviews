@@ -1,8 +1,8 @@
 <?php
 
-add_action('init', 'registerTaxonomyNews');
+add_action('init', 'registerTaxonomyReviews');
 
-function registerTaxonomyNews(): void
+function registerTaxonomyReviews(): void
 {
     $args = [
         'labels' => [
@@ -16,6 +16,7 @@ function registerTaxonomyNews(): void
             'add_new_item' => 'Nieuwe categorie',
             'new_item_name' => 'Nieuwe categorie',
             'search_items' => 'Zoek categorie',
+            
         ],
         'public' => true,
         'hierarchical' => true,
@@ -28,5 +29,5 @@ function registerTaxonomyNews(): void
     ];
 
 
-    \register_taxonomy('newsCategory', ['news'], $args);
+    \register_taxonomy('reviewsCategory', ['reviews'], $args);
 }

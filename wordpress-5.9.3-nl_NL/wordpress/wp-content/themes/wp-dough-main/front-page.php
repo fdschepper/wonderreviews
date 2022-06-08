@@ -5,7 +5,8 @@
 
 $args = array(
     'numberposts'=> 9,
-    'post_type'=> 'reviews'
+    'post_type'=> 'reviews',
+    'orderby'=> 'date'
 );              
 
 $title = get_the_title();
