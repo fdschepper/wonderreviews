@@ -1,7 +1,19 @@
 /* MAIN STYLE SHEET (comment can be removed) */
+
 body
 {
     font-family: Helvetica, sans-serif;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 99%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
 .nav
 {
@@ -84,14 +96,14 @@ footer {
     width: 20%;
     background-color: rgb(89, 89, 89);
     color: white;
-
+    
 }
 
 .home-container .row .review a.title{
     text-decoration: none;
     color: white;
     display: flex;
-    height: 100%;
+    height: 90%;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
@@ -100,11 +112,13 @@ footer {
 }
 
 .home-container .row .review .post-top{
-    height: 50%;
+    height: 40%;
 }
 
 .home-container .row .review .post-bottom{
-    height: 50%;
+    height: 60%;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 

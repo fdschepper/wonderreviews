@@ -1,3 +1,3 @@
 <footer>
-    FOOTER
+    Copyright (c) me (:
 </footer>

@@ -43,7 +43,7 @@ $links = get_permalink();
                     <a class="title" href="<?php echo get_permalink($posts[0]->ID); ?>"><?php echo $posts[0]->post_title; ?></a> 
                 </div>
                 <div class="post-bottom">
-                    <p><?php $str = $posts[0]->post_content; if (strlen($str) > 40)$str = substr($str, 0, 40) . '...'; echo $str?></p>
+                    <p><?php $str = $posts[0]->post_content;echo $str?></p>
                 </div>
             </div>
 
@@ -52,7 +52,7 @@ $links = get_permalink();
                     <a class="title" href="<?php echo get_permalink($posts[1]->ID); ?>"><?php echo $posts[1]->post_title; ?></a> 
                 </div>
                 <div class="post-bottom">
-                    <p><?php $str = $posts[1]->post_content; if (strlen($str) > 40)$str = substr($str, 0, 40) . '...'; echo $str?></p>
+                    <p><?php $str = $posts[1]->post_content;echo $str?></p>
                 </div>
             </div>
 
@@ -61,7 +61,7 @@ $links = get_permalink();
                     <a class="title" href="<?php echo get_permalink($posts[2]->ID); ?>"><?php echo $posts[2]->post_title; ?></a> 
                 </div>
                 <div class="post-bottom">
-                    <p><?php $str = $posts[2]->post_content; if (strlen($str) > 40)$str = substr($str, 0, 40) . '...'; echo $str?></p>
+                    <p><?php $str = $posts[2]->post_content;echo $str?></p>
                 </div>
             </div>
         </div>
@@ -73,7 +73,7 @@ $links = get_permalink();
                     <a class="title" href="<?php echo get_permalink($posts[3]->ID); ?>"><?php echo $posts[3]->post_title; ?></a> 
                 </div>
                 <div class="post-bottom">
-                    <p><?php $str = $posts[3]->post_content; if (strlen($str) > 40)$str = substr($str, 0, 40) . '...'; echo $str?></p>
+                    <p><?php $str = $posts[3]->post_content;echo $str?></p>
                 </div>
             </div>
 
@@ -82,7 +82,7 @@ $links = get_permalink();
                     <a class="title" href="<?php echo get_permalink($posts[4]->ID); ?>"><?php echo $posts[4]->post_title; ?></a> 
                 </div>
                 <div class="post-bottom">
-                    <p><?php $str = $posts[4]->post_content; if (strlen($str) > 40)$str = substr($str, 0, 40) . '...'; echo $str?></p>
+                    <p><?php $str = $posts[4]->post_content;echo $str?></p>
                 </div>
             </div>
 
@@ -91,7 +91,7 @@ $links = get_permalink();
                     <a class="title" href="<?php echo get_permalink($posts[5]->ID); ?>"><?php echo $posts[5]->post_title; ?></a> 
                 </div>
                 <div class="post-bottom">
-                    <p><?php $str = $posts[5]->post_content; if (strlen($str) > 40)$str = substr($str, 0, 40) . '...'; echo $str?></p>
+                    <p><?php $str = $posts[5]->post_content;echo $str?></p>
                 </div>
             </div>
         </div>
@@ -104,7 +104,7 @@ $links = get_permalink();
                     <a class="title" href="<?php echo get_permalink($posts[6]->ID); ?>"><?php echo $posts[6]->post_title; ?></a> 
                 </div>
                 <div class="post-bottom">
-                    <p><?php $str = $posts[6]->post_content; if (strlen($str) > 40)$str = substr($str, 0, 40) . '...'; echo $str?></p>
+                    <p><?php $str = $posts[6]->post_content;echo $str?></p>
                 </div>
             </div>
 
@@ -113,7 +113,7 @@ $links = get_permalink();
                     <a class="title" href="<?php echo get_permalink($posts[7]->ID); ?>"><?php echo $posts[7]->post_title; ?></a> 
                 </div>
                 <div class="post-bottom">
-                    <p><?php $str = $posts[7]->post_content; if (strlen($str) > 40)$str = substr($str, 0, 40) . '...'; echo $str?></p>
+                    <p><?php $str = $posts[7]->post_content;echo $str?></p>
                 </div>
             </div>
 
@@ -122,7 +122,7 @@ $links = get_permalink();
                     <a class="title" href="<?php echo get_permalink($posts[8]->ID); ?>"><?php echo $posts[8]->post_title; ?></a> 
                 </div>
                 <div class="post-bottom">
-                    <p><?php $str = $posts[8]->post_content; if (strlen($str) > 40)$str = substr($str, 0, 40) . '...'; echo $str?></p>
+                    <p><?php $str = $posts[8]->post_content;echo $str?></p>
                 </div>
             </div>
         </div>
