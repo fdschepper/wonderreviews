@@ -56,7 +56,10 @@ else{
             <?php 
             $the_post_id = get_the_ID();
             $article_terms = wp_get_post_terms($the_post_id, ['reviewsCategory', 'post_tag']);
-            echo $article_terms->name;
+            foreach($article_terms as $cat) 
+            {
+                echo $cat->name . " ";
+            }
             ?>
         </p>
     </div>
